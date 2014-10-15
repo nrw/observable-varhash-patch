@@ -1,0 +1,20 @@
+{
+  "name": "observable-varhash-patch",
+  "description": "observable varhash patch",
+  "version": "0.0.0",
+  "repository": {
+    "url": "https://github.com/nrw/observable-varhash-patch.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "dependencies": {
+    "observ-varhash": "^0.3.0",
+    "observable-patch": "^1.0.2",
+    "observify": "^1.0.2"
+  },
+  "devDependencies": {
+    "tape": "3.x.x"
+  }
+}
